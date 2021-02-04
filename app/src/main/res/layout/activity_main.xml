@@ -102,7 +102,7 @@
 
                     <TextView
                         android:text="Courses"
-                        android:layout_marginStart="30dp"
+                        android:layout_marginStart="20dp"
                         android:textSize="18sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"
@@ -112,8 +112,18 @@
 
                     <TextView
                         android:text="Grade"
-                        android:layout_marginEnd="30dp"
+                        android:layout_marginEnd="20dp"
                         android:layout_alignParentEnd="true"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:text="Credit"
+                        android:layout_marginEnd="30dp"
+                        android:layout_centerInParent="true"
                         android:textSize="18sp"
                         android:textColor="@color/black"
                         android:layout_width="wrap_content"

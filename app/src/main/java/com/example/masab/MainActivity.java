@@ -56,20 +56,20 @@ public class MainActivity extends AppCompatActivity {
 
     private void setData1() {
         modelList= new ArrayList<>();
-        modelList.add(new Model("CSE111","3.50"));
-        modelList.add(new Model("CSE112","3.25"));
-        modelList.add(new Model("CSE113","3.75"));
-        modelList.add(new Model("CSE114","3.00"));
-        modelList.add(new Model("CSE114","3.00"));
+        modelList.add(new Model("CSE111","3.50","3"));
+        modelList.add(new Model("CSE112","3.25","1"));
+        modelList.add(new Model("CSE113","3.75","3"));
+        modelList.add(new Model("CSE114","3.00","3"));
+        modelList.add(new Model("CSE114","3.00","3"));
 
     }
     private void setData2() {
         modelList2= new ArrayList<>();
-        modelList2.add(new Model("CSE311","3.50"));
-        modelList2.add(new Model("CSE312","2.25"));
-        modelList2.add(new Model("CSE313","3.75"));
-        modelList2.add(new Model("CSE314","3.50"));
-        modelList2.add(new Model("CSE314","3.50"));
+        modelList2.add(new Model("CSE311","3.50","2"));
+        modelList2.add(new Model("CSE312","2.25","3"));
+        modelList2.add(new Model("CSE313","3.75","1"));
+        modelList2.add(new Model("CSE314","3.50","2"));
+        modelList2.add(new Model("CSE314","3.50","3"));
 
     }
 
